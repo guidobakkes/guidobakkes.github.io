@@ -1,0 +1,25 @@
+$main-color: #1C252E;
+
+.uppercase { text-transform: uppercase; }
+.lowercase { text-transform: lowercase; }
+
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.text-left { text-align: left; }
+
+.paragraph {
+  font-family: 'Lato', sans-serif;
+  line-height: 30px;
+}
+
+// Link styling
+a {
+  color: $main-color;
+  text-decoration: none;
+  &:hover {
+    border-bottom: 7px solid $main-color;
+  }
+  &.active {
+    border-bottom: 7px solid $main-color;
+  }
+}
